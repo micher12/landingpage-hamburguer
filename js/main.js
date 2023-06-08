@@ -111,5 +111,9 @@ $(function(){
             event.preventDefault()
         });
     }
-
+    
+    //somente alerta
+    $('#detalhes').click(function(){
+        alert("Apenas Exemplo...");
+    });
 });
